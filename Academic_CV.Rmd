@@ -1,0 +1,226 @@
+---
+title: 'Sina Özdemir'
+output:
+  html_document:
+    toc: no
+    df_print: paged
+  
+---
+
+\arrayrulecolor{white}
+
+
+
+```{r setup, include=FALSE,echo=FALSE,warning=FALSE}
+knitr::opts_chunk$set(echo = F,warning = F)
+library(kableExtra)
+```
+
+
+
+```{r cs_sfo, eval= T,echo=FALSE,message=FALSE,warning=FALSE,results="asis"}
+bio<-data.frame(column = c("Date of Birth","E-mail","Phone","Twitter","Github"),
+                info = c("04.01.1993",
+                         "sina.ozdemir@ntnu.no",
+                         "+47 413 69 713",
+                         "@sina_ozdemir",
+                         "SinaOzdemir"))
+
+kbl(bio,col.names = NULL) %>%
+  kable_styling(bootstrap_options = "none", full_width = T,position = "left") %>% 
+  column_spec(1,width = "10em")
+  
+```
+
+## Education:
+
+```{r educ, echo=FALSE,message=FALSE,warning=FALSE,results="asis"}
+
+
+educ<-data.frame(column = c("**2018-2023**","","","","",
+                            "**2015-2017**","","","","",
+                            "**2010-2015**","","","","",
+                            "**2013-2015**","",""),
+                info = c("**PhD candidate**",
+                         "Norwegian University of Science and Technology (Trondheim, Norway)",
+                         "Project: Trondheim Analytica",
+                         "Thesis: Discursive self-legitimation of the EU on Social Media","",
+                         
+                "**M.A. Comparative and International Relations**",
+                "ETH Zurich & University of Zurich (Zurich, Switzerland)",
+                "CGPA 4.97/6.00",
+                "Thesis: Less we trust, more we hate? The role of interpersonal generalized trust in the populist radical right party preference","",
+                
+                "**B.Sc. Political Science and International Relations**",
+                "Middle-East Technical Unviersity (Ankara, Turkey)",
+                "CGPA 3.64/4.00",
+                "Friends or Foes? A critical reading of AKP's peacebuilding policy toward PKK","",
+                
+                "**Minor: International Economics**",
+                "Middle-East Technical Unviersity (Ankara, Turkey)",
+                "CGPA: 3.42/4.00"))
+
+kbl(educ,col.names = NULL) %>%
+  kable_styling(bootstrap_options = "none", full_width = T,position = "left") %>% 
+  column_spec(1,width = "10em")
+  
+```
+
+
+## Research Projects
+
+
+
+```{r research_experience,echo=FALSE,message=FALSE,warning=FALSE,results="asis"}
+
+ra<- data.frame(col1 = c("**2018 - 2023**","Directors:","Role:","Project description","",
+                         "**03.2017 - 11.2018**","Directors:","Role:","Project description","",
+                         "03.2016 - 03.2017","Directors:","Role:","Project description",""),
+                col2 = c("**Trondheim Analytica**",
+                         "Assoc. Prof. Astrid Rasch, Prof. Pieter de Wilde, Prof. Jon-Atle Gulla, Prof. Kjetil Norvag",
+                         "PhD Candidate",
+                         "TRONDHEIM ANALYTICA (TA) seeks to address one of the most profound challenges for democracy in the 21st century: the social media revolution and its attendant problems of fake news, message targeting, and echo chambers. When political campaigning moves from the public sphere of newspaper, television, and billboards to the public-private sphere of personalised news feeds on Facebook and Twitter, accountability is diminished and the scope for journalistic inquiry and political debate restricted. Alongside these pitfalls, this digital environment also holds potential to empower citizens. TA aims to study and improve democratic engagement via social media, by  developing tools for studying public opinion through merging big data analysis with qualitative analysis. This will allow a transparent sophisticated examination of social media content, raising awareness among decision makers, academics, and the general public as to the potentials and pitfalls of social media profiling, and studying the strategies of successful social media campaigns and use the findings to develop strategies for future campaigns of democratic engagement.","",
+                         
+                         "**Constructing Europe's Borders**",
+                         "Prof. Frank Schimmelfennig, Dr. Marie-Eve Belanger",
+                         "Research assistant",
+                         "This research project traces and maps the transformation of the political discourses on Europe’s borders and membership, both in the European Union (EU) and in its contested neighborhood. It is designed to show how the positions and arguments of political parties on membership issues have shifted over time in a range of European countries, and how these changes influence membership practices. In doing so, it contributes to a better understanding of the historical changes that the region of Europe is currently undergoing, above all the contestation of “Europe” and the move toward “differentiated (dis)integration” in the region.","",
+                         
+                         "**Internatioanlisation and Representative Democracy**",
+                         "Prof. Francis Cheneval,Prof. Frank Schimmelfennig, Dr. Thomas Winzen",
+                         "Research assistant",
+                         "The goal of the project is three folds. Firstly, it aims to map and explain the existence of representative institutions in IOs and the strength and types of their authority. Second, it extends the previous analyses of national parliaments in the European Union, examining how and why parliaments use their formal powers to become involved in EU decision-making. Third, it aims to identify the connection between the legitimacy and parliamentarisation of international organisations. Normatively, the project aims to develop standards to assess current patterns of parliamentarisation. In collaboration with other projects in the NCCR Democracy, the project focuses on whether parliamentarisation affects individual and media awareness and perceptions of IOs.",""))
+
+
+kbl(ra,col.names = NULL) %>%
+  kable_styling(bootstrap_options = "none", full_width = T,position = "left") %>% 
+  column_spec(1,width = "10em")
+  
+```
+
+
+## Peer reviewed and under-review works:
+
+**Ozdemir, S.** and Rauh, C. (2022) *A Bird’s Eye View: Supranational EU Actors on Twitter*. Politics and Governance, 10(1). pp 133-145.
+
+Firouzjaei, H. A., & **Ozdemir, S.** (2020). *Effect of read‐ability of political tweets on positive user engagement*. In 2020 IEEE/ACM International Conferenceon Advances in Social Networks Analysis and Mining(ASONAM). pp. 884–891.
+
+Baysan, A. and **Ozdemir, S.** (under-review). *Effect of democratic backsliding on Discurisve support for EU membership*. Mediterranian Politics.
+
+de Wilde, P. Langsaether P.E. and **Ozdemir, S.** (under-review) *Critical Junctures and the Crystallization of Cosmopolitanism and Communitarianism*. European Political Science Review.
+
+Magin, M. **Ozdemir, S.** and de Wilde, P. (work-in-progress) *Online Sorting: Are Cosmopolitans and Communitarians behaving differently on Social Media? A Comparison between Norway and UK*
+
+## Conferences papers
+
+**Ozdemir,S.**, and Schwabl, P. (2022) Do we really need multi-modality: Comparing classification performances with mono-modal and multi-modal data representation. **DgPuk MethodenTag 2022**
+
+**Ozdemir,S.**, Graneng, K. and de Wilde, P. (2022) PR+: the EU supranational executives’ efforts to reproduce legitimacy via public communication on Twitter. **EUSA Miami 2022** 
+
+**Ozdemir,S.** and de Wilde, P.(2021) Cosmopolitanism and Communitarianism in Manifestos:
+Estimating party position using semi-supervised machine learning. **Comptext May 2021**.
+
+**Ozdemir,S.** and de Wilde, P. (2020) Discursive self-legitimation of the EU by the EU Elite on
+Social Media. **ECPR Standing Group EU workshop**. Rome: Italy.
+
+**Ozdemir, S.** (2019) The Role of Generalised Trust in Individual Preference for the Populist
+Radical Right. **ECPR General Conference 2019**. Wroclaw: Poland.
+
+Baysan, A. and **Ozdemir, S.** (work-in-progress) Speaking of Accession Fatigue: Mapping EU membership
+discourse in Turkish Parliament. **EUSA Denver 2019**. Denver,Colorado:the USA. **May 2019**
+
+## Teaching:
+
+```{r teaching,echo=FALSE,message=FALSE,warning=FALSE,results="asis"}
+ta<- data.frame(col1=c("**Course title**","Role:","Date:","Language","Course description","",
+                       "**Course title**","Role:","Date:","Language","Course description","",
+                       "**Course title**","Role:","Date:","Language","Course description"),
+                
+                col2=c("**POL2016: Political Communication and Behaviour**",
+                       "Guest lecturer",
+                       "Fall 2021, Fall 2022",
+                       "English",
+                       "This course will focus on how media content and format influence people's political behaviour, meaning their knowledge concerning political issue, their will and ability to participate in politics and their political preferences. The course gives a presentation of and an in-depth study of some of the central models in electoral research, research on political participation, research on short-term and long-term media influence.","",
+                       "**SOS3515:Advanced Social Statistics**",
+                       "Course coordinator/instructor",
+                       "Spring 2021, Spring 2022",
+                       "English",
+                       "The content of the course will vary. It may be given as an overview course, covering several statistical techniques, or it may be concentrated on one technique, such as multilevel analysis, structural equation models and analyses of panel data.","",
+                       "**POL2900:Bachelor's Thesis Political Science**",
+                       "Course coordinator/supervisor",
+                       " Spring 2020, Spring 2021",
+                       "English,Norwegian",
+                       "Through their work on their BA-thesis the students are supposed to study a specific subject of their own choosing based on one of the four subfields within political science - international relations, comparative politics, political behavior and/ or public policy and administration. Tutoring of the thesis will be given. Different courses relevant to the work on the thesis will be held, and some are compulsory and some are optional. Finally, the students are trained through the writing and presentation of their own thesis to become familiar with the scientific way of thinking. Through reviews of their own as well as other fellow-students BA-theses taking place at the seminars, the students learn to reflect on their own as well as others research/ work."))
+
+
+kbl(ta,col.names = NULL) %>%
+  kable_styling(bootstrap_options = "none", full_width = T,position = "left") %>% 
+  column_spec(1,width = "10em")
+  
+```
+
+
+
+## Summer schools and training
+```{r ss,eval=T,echo=FALSE,message=FALSE,warning=FALSE,results="asis"}
+
+# \textcolor{NavyBlue}{`r paste0('Workshop participation and organization: ' )`}
+
+ss<- data.frame(col1=c("**July 2021**","",
+                       "**June 2021**","",
+                       "**August 2019**","Courses:","",
+                       "**June 2019**","Courses:"),
+                col2=c("**The Empirical Implications of Theoretical Models (EITM)**","",
+                       "**Summer Institute for Computational Social Science(SICSS)-Helsinki**","",
+                       "**ECPR Methods Summer School**",
+                       "Python Programming for Social Scientists: Big Data, Web Scraping and Other Useful Programming Tricks\nIntroduction to Quantitative Text Analysis\nAdvanced Quantitative Text Analysis","",
+"**Maastricht School of Management Summer School**","Machine Learning and Data Mining with Python"))
+
+
+kbl(ss,col.names = NULL) %>%
+  kable_styling(bootstrap_options = "none", full_width = T,position = "left") %>% 
+  column_spec(1,width = "10em") %>% 
+  row_spec(row = c(1:nrow(ss)),font_size = "large")
+
+  
+```
+
+## Awards and scholarships
+
+
+```{r awardsandscholarships,echo=FALSE,message=FALSE,warning=FALSE,results="asis"}
+
+as<- data.frame(c1 = c("**2022**","","","","",
+                       "**2019**","","","","",
+                       "**2011 - 2015**","","","","",
+                       "**2010 - 2015**","","",""),
+                c2 = c("**Research visit scholarship**","Norwegian University of Science and Technology","Funding to conduct short-term research visit","~2500€","",
+                       "**Grant for small research**","Norwegian University of Science and Technology","Funding to assist conducting small research","~13000€","",
+                       "**Merit Scholarship**","Middle-East Technical University","Monthly stipend awarded to the top 3% of the all undergraduate students of a program","~5.000$","",
+                       "**Admission Scholarship**","Middle-East Technical University","Full tuition fee waiver during undergraduate studies","~37.000$"))
+
+
+kbl(as,col.names = NULL) %>%
+  kable_styling(bootstrap_options = "none", full_width = T,position = "left") %>% 
+  column_spec(1,width = "10em")
+  
+```
+
+
+
+## Technical skills
+
+  - R: Advanced
+  - Python: Intermediate
+  - SQL: Intermediate
+  - Stata: Intermediate
+  - SPSS: Intermediate
+  - JavaScript: Beginner
+  - C#: Beginner
+  
+
+## Language skills
+  - Turkish: Native
+  - English: C1 (Toefl IBT: 106/120)
+  - Norwegian: C1 (NTNU language exam)
+  - German: B1 (Goethe B1 exam)
